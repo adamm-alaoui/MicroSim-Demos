@@ -1,0 +1,369 @@
+{
+  "id": "4e03294d-84e9-4511-8b2f-d7924a0401cf",
+  "name": "Verilog Integration",
+  "createdAt": "2025-01-05T15:23:43.592Z",
+  "updatedAt": "2025-05-16T13:49:56.919Z",
+  "circuit": {
+    "id": "4e03294d-84e9-4511-8b2f-d7924a0401cf",
+    "locked": false,
+    "offsetX": -881.5,
+    "offsetY": -742,
+    "zoom": 300,
+    "gridSize": 15,
+    "layers": [
+      {
+        "id": "cb019add-f724-4fe5-8ca8-a6742f8f798f",
+        "type": "diagram-links",
+        "isSvg": true,
+        "transformed": true,
+        "models": {
+          "ID_bb76a859_d422_4707_9c59_ec96300854be": {
+            "id": "ID_bb76a859_d422_4707_9c59_ec96300854be",
+            "type": "link",
+            "selected": false,
+            "source": "ID_c95160fb_4986_4f5d_8cf7_352899c1b64c",
+            "sourcePort": "fee3122c-7452-427a-82f1-c0451a1f2c89",
+            "target": "ID_1c52767b_51aa_4f4d_b391_58225ed294e3",
+            "targetPort": "39dd5e24-5aec-43bd-8783-0d241666303c",
+            "points": [
+              {
+                "id": "b7f29e55-884e-4e9b-9c82-75894cb58b33",
+                "type": "point",
+                "x": 465.3255157470703,
+                "y": 359.999994913737
+              },
+              {
+                "id": "f3462dbc-5b3a-4fc4-8d60-5de5e4b75155",
+                "type": "point",
+                "x": 495.83331298828125,
+                "y": 359.83072916666674
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_0e93133b_b2c3_48cc_9742_66c1b437f4b6": {
+            "id": "ID_0e93133b_b2c3_48cc_9742_66c1b437f4b6",
+            "type": "link",
+            "selected": false,
+            "source": "ID_4fc9227e_ee94_4af7_8651_86709fc4d5ca",
+            "sourcePort": "0f46f62b-e064-4a29-87d6-7f7b06a942d7",
+            "target": "ID_1c52767b_51aa_4f4d_b391_58225ed294e3",
+            "targetPort": "b7ab4bcd-6b13-448c-8e67-33dbf53c2654",
+            "points": [
+              {
+                "id": "087d6a64-2382-4056-a3ef-2a8f73b703af",
+                "type": "point",
+                "x": 435.3255157470703,
+                "y": 374.999994913737
+              },
+              {
+                "id": "a9fdbcc0-84b0-4299-999c-10f5abae3a8b",
+                "type": "point",
+                "x": 495.83331298828125,
+                "y": 374.83072916666674
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_4297bc5d_5925_4bba_9916_cb5bd31d6739": {
+            "id": "ID_4297bc5d_5925_4bba_9916_cb5bd31d6739",
+            "type": "link",
+            "selected": false,
+            "source": "ID_91774b4f_80c0_43a7_87b2_cea978d1ff88",
+            "sourcePort": "0d832c9a-7aaa-4a1d-b31c-2b4be103109f",
+            "target": "ID_1c52767b_51aa_4f4d_b391_58225ed294e3",
+            "targetPort": "6a4cdf6a-0d37-4a03-ab28-dc028e7bd9d5",
+            "points": [
+              {
+                "id": "aecbf434-a7c8-48b1-8b05-713fc960ee2e",
+                "type": "point",
+                "x": 465.3255157470703,
+                "y": 389.999994913737
+              },
+              {
+                "id": "2c80806c-f904-4ce5-b8e3-bda9b05994c0",
+                "type": "point",
+                "x": 495.83331298828125,
+                "y": 389.83072916666674
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_f0ffe9e9_f864_44c9_8c70_225606dd8588": {
+            "id": "ID_f0ffe9e9_f864_44c9_8c70_225606dd8588",
+            "type": "link",
+            "selected": false,
+            "source": "ID_1c52767b_51aa_4f4d_b391_58225ed294e3",
+            "sourcePort": "c8496201-6ef6-48df-b219-41b20ae3527c",
+            "target": "ID_1c61da87_a1fb_4734_afcb_d544abf6025f",
+            "targetPort": "04e3b49d-c7dd-47ee-bb1e-a27a88375b7e",
+            "points": [
+              {
+                "id": "c4b24134-d558-438b-8c65-a68e19344a9a",
+                "type": "point",
+                "x": 674.1666870117188,
+                "y": 359.83072916666674
+              },
+              {
+                "id": "5bde0c12-fd45-4832-b02c-31cda30ae588",
+                "type": "point",
+                "x": 704.6744689941406,
+                "y": 359.99999491373705
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          }
+        }
+      },
+      {
+        "id": "925f8047-4dad-4bb9-a1d0-f6a5970cea07",
+        "type": "diagram-nodes",
+        "isSvg": false,
+        "transformed": true,
+        "models": {
+          "ID_c95160fb_4986_4f5d_8cf7_352899c1b64c": {
+            "id": "ID_c95160fb_4986_4f5d_8cf7_352899c1b64c",
+            "type": "Input",
+            "selected": false,
+            "x": 435,
+            "y": 345,
+            "ports": [
+              {
+                "id": "fee3122c-7452-427a-82f1-c0451a1f2c89",
+                "type": "Port",
+                "selected": false,
+                "x": 460.3255157470703,
+                "y": 354.999994913737,
+                "name": "out",
+                "parentNode": "ID_c95160fb_4986_4f5d_8cf7_352899c1b64c",
+                "links": [
+                  "ID_bb76a859_d422_4707_9c59_ec96300854be"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "DATA_BITS": "1",
+              "THREE_STATE": "false"
+            }
+          },
+          "ID_4fc9227e_ee94_4af7_8651_86709fc4d5ca": {
+            "id": "ID_4fc9227e_ee94_4af7_8651_86709fc4d5ca",
+            "type": "Input",
+            "selected": false,
+            "x": 405,
+            "y": 360,
+            "ports": [
+              {
+                "id": "0f46f62b-e064-4a29-87d6-7f7b06a942d7",
+                "type": "Port",
+                "selected": false,
+                "x": 430.3255157470703,
+                "y": 369.999994913737,
+                "name": "out",
+                "parentNode": "ID_4fc9227e_ee94_4af7_8651_86709fc4d5ca",
+                "links": [
+                  "ID_0e93133b_b2c3_48cc_9742_66c1b437f4b6"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "DATA_BITS": "1",
+              "THREE_STATE": "false"
+            }
+          },
+          "ID_91774b4f_80c0_43a7_87b2_cea978d1ff88": {
+            "id": "ID_91774b4f_80c0_43a7_87b2_cea978d1ff88",
+            "type": "Input",
+            "selected": false,
+            "x": 435,
+            "y": 375,
+            "ports": [
+              {
+                "id": "0d832c9a-7aaa-4a1d-b31c-2b4be103109f",
+                "type": "Port",
+                "selected": false,
+                "x": 460.3255157470703,
+                "y": 384.999994913737,
+                "name": "out",
+                "parentNode": "ID_91774b4f_80c0_43a7_87b2_cea978d1ff88",
+                "links": [
+                  "ID_4297bc5d_5925_4bba_9916_cb5bd31d6739"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "DATA_BITS": "1",
+              "THREE_STATE": "false"
+            }
+          },
+          "ID_1c61da87_a1fb_4734_afcb_d544abf6025f": {
+            "id": "ID_1c61da87_a1fb_4734_afcb_d544abf6025f",
+            "type": "Output",
+            "selected": false,
+            "x": 705,
+            "y": 345,
+            "ports": [
+              {
+                "id": "04e3b49d-c7dd-47ee-bb1e-a27a88375b7e",
+                "type": "Port",
+                "selected": false,
+                "x": 699.6744689941406,
+                "y": 354.99999491373705,
+                "name": "in",
+                "parentNode": "ID_1c61da87_a1fb_4734_afcb_d544abf6025f",
+                "links": [
+                  "ID_f0ffe9e9_f864_44c9_8c70_225606dd8588"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "DATA_BITS": "1",
+              "OUTPUT_FORMAT": "BITS"
+            }
+          },
+          "ID_1c52767b_51aa_4f4d_b391_58225ed294e3": {
+            "id": "ID_1c52767b_51aa_4f4d_b391_58225ed294e3",
+            "type": "ExternalVerilog",
+            "selected": false,
+            "x": 495,
+            "y": 345,
+            "ports": [
+              {
+                "id": "39dd5e24-5aec-43bd-8783-0d241666303c",
+                "type": "Port",
+                "selected": false,
+                "x": 490.83331298828125,
+                "y": 354.83072916666674,
+                "name": "a",
+                "parentNode": "ID_1c52767b_51aa_4f4d_b391_58225ed294e3",
+                "links": [
+                  "ID_bb76a859_d422_4707_9c59_ec96300854be"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "b7ab4bcd-6b13-448c-8e67-33dbf53c2654",
+                "type": "Port",
+                "selected": false,
+                "x": 490.83331298828125,
+                "y": 369.83072916666674,
+                "name": "b",
+                "parentNode": "ID_1c52767b_51aa_4f4d_b391_58225ed294e3",
+                "links": [
+                  "ID_0e93133b_b2c3_48cc_9742_66c1b437f4b6"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "6a4cdf6a-0d37-4a03-ab28-dc028e7bd9d5",
+                "type": "Port",
+                "selected": false,
+                "x": 490.83331298828125,
+                "y": 384.83072916666674,
+                "name": "c",
+                "parentNode": "ID_1c52767b_51aa_4f4d_b391_58225ed294e3",
+                "links": [
+                  "ID_4297bc5d_5925_4bba_9916_cb5bd31d6739"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "c8496201-6ef6-48df-b219-41b20ae3527c",
+                "type": "Port",
+                "selected": false,
+                "x": 669.1666870117188,
+                "y": 354.83072916666674,
+                "name": "out",
+                "parentNode": "ID_1c52767b_51aa_4f4d_b391_58225ed294e3",
+                "links": [
+                  "ID_f0ffe9e9_f864_44c9_8c70_225606dd8588"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "MODULE_NAME": "simple_logic",
+              "INPUT_DESC": [
+                {
+                  "name": "a",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "b",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "c",
+                  "bitWidth": "1:1"
+                }
+              ],
+              "OUTPUT_DESC": [
+                {
+                  "name": "out",
+                  "bitWidth": "1:1"
+                }
+              ],
+              "FILE_PATH": "misc/Testcases/Verilog_Comp/simple_logic.v"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

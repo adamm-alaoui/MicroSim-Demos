@@ -1,0 +1,9 @@
+1: LDA 14
+2: MRS
+3: LDA 15
+4: MRS
+5: LDA 14 
+6: MRS
+7: HLT
+14: 83   ; 'S' in ASCII
+15: 79   ; 'O' in ASCII

@@ -1,0 +1,1855 @@
+{
+  "id": "7b448315-1287-493b-a9f8-d22e7c68d81b",
+  "name": "Keyboard to SSD",
+  "createdAt": "2025-01-05T16:36:22.478Z",
+  "updatedAt": "2025-04-23T13:09:44.868Z",
+  "circuit": {
+    "id": "7b448315-1287-493b-a9f8-d22e7c68d81b",
+    "locked": false,
+    "offsetX": -373.00000000000006,
+    "offsetY": -214.49999999999977,
+    "zoom": 75,
+    "gridSize": 15,
+    "layers": [
+      {
+        "id": "08f60ea6-f30f-45fe-b1c3-bdf823e96d9f",
+        "type": "diagram-links",
+        "isSvg": true,
+        "transformed": true,
+        "models": {
+          "ID_f32bc24f_a4a4_44d4_9a2a_c5e34fe83654": {
+            "id": "ID_f32bc24f_a4a4_44d4_9a2a_c5e34fe83654",
+            "type": "link",
+            "selected": false,
+            "source": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+            "sourcePort": "9c3c544d-abb6-4dac-99f2-8db9e565e010",
+            "target": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+            "targetPort": "403ee7dd-73a7-4c94-9774-37d3dc7ec426",
+            "points": [
+              {
+                "id": "08850c84-ff4e-4112-85c3-d501312bcc25",
+                "type": "point",
+                "x": 1379.2914222081504,
+                "y": 599.6798906326292
+              },
+              {
+                "id": "5a7d9fc2-d849-4866-a1db-9103c1ace539",
+                "type": "point",
+                "x": 1515,
+                "y": 600
+              },
+              {
+                "id": "70145263-62c2-4dd3-a932-f522cfb1d503",
+                "type": "point",
+                "x": 1514.3825680414834,
+                "y": 614.3879798253374
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_0919abc5_672d_4d9e_8ff6_ec34076749c3": {
+            "id": "ID_0919abc5_672d_4d9e_8ff6_ec34076749c3",
+            "type": "link",
+            "selected": false,
+            "source": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+            "sourcePort": "9764aa84-9384-4952-85a1-8689e38ceedf",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "a87d548e-7fa2-40b7-a96d-6bdc592ce77e",
+                "type": "point",
+                "x": 1379.2914222081504,
+                "y": 614.6755367914832
+              },
+              {
+                "id": "31bd2285-1b7d-49c8-bec5-b8513a92cbb2",
+                "type": "point",
+                "x": 1395,
+                "y": 615
+              },
+              {
+                "id": "f4a4f55b-a1e5-4a64-960e-39c7a8603458",
+                "type": "point",
+                "x": 1395,
+                "y": 585
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_417fa7e5_5f08_401d_b67d_b1378aa547e4"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_417fa7e5_5f08_401d_b67d_b1378aa547e4": {
+            "id": "ID_417fa7e5_5f08_401d_b67d_b1378aa547e4",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+            "targetPort": "c91ec564-378a-4e5b-8e40-410677349672",
+            "points": [
+              {
+                "id": "cc6fd645-448f-4b8f-9b71-22efcb5b5337",
+                "type": "point",
+                "x": 1395,
+                "y": 585
+              },
+              {
+                "id": "5441bc9e-1677-4f8b-a562-36f0d9b6ded3",
+                "type": "point",
+                "x": 1530,
+                "y": 585
+              },
+              {
+                "id": "301963f2-abbf-4e30-8b44-f7b5e11890f4",
+                "type": "point",
+                "x": 1529.378254890442,
+                "y": 614.3879798253374
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_0919abc5_672d_4d9e_8ff6_ec34076749c3",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_440cdc66_2d47_45d9_87b1_3c0472d0d461": {
+            "id": "ID_440cdc66_2d47_45d9_87b1_3c0472d0d461",
+            "type": "link",
+            "selected": false,
+            "source": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+            "sourcePort": "dc3b7385-c87d-4cc3-b1ab-f876f2e90e93",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "7d6aeacd-7a05-4a59-b2d2-9dcf03c6b6d7",
+                "type": "point",
+                "x": 1379.2914222081504,
+                "y": 659.6842037836707
+              },
+              {
+                "id": "98dbb1cf-231b-44fd-af91-c065ed341c0d",
+                "type": "point",
+                "x": 1395,
+                "y": 660
+              },
+              {
+                "id": "44cf7479-7ad7-4556-8d43-1f64f7624c57",
+                "type": "point",
+                "x": 1395,
+                "y": 765
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_8d659be2_f3bc_4549_a673_50041c76ea45"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_8d659be2_f3bc_4549_a673_50041c76ea45": {
+            "id": "ID_8d659be2_f3bc_4549_a673_50041c76ea45",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+            "targetPort": "bdcac83d-37ca-4c73-aab0-39ab35ddeadf",
+            "points": [
+              {
+                "id": "061d9afc-30c3-4302-a14c-d7cce7a81db2",
+                "type": "point",
+                "x": 1395,
+                "y": 765
+              },
+              {
+                "id": "403ab799-f85b-4903-a035-044c81feb283",
+                "type": "point",
+                "x": 1485,
+                "y": 765
+              },
+              {
+                "id": "a9a994ab-fc12-4e0b-be56-5b4e2bdc1d73",
+                "type": "point",
+                "x": 1484.380452156067,
+                "y": 704.3836526870725
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_440cdc66_2d47_45d9_87b1_3c0472d0d461",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_2a75ddbf_81b3_4b30_a05f_b0a7b79e5bb2": {
+            "id": "ID_2a75ddbf_81b3_4b30_a05f_b0a7b79e5bb2",
+            "type": "link",
+            "selected": false,
+            "source": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+            "sourcePort": "09dc57ee-71e0-410b-9a65-2985c993f4f4",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "26aec3ba-afa1-4135-8118-5bb647ae9548",
+                "type": "point",
+                "x": 1379.2914222081504,
+                "y": 644.6776933670042
+              },
+              {
+                "id": "e6149862-777b-471f-aceb-6f2a808602e8",
+                "type": "point",
+                "x": 1410,
+                "y": 645
+              },
+              {
+                "id": "8496c640-de3b-47d5-8ce7-069b6c360d82",
+                "type": "point",
+                "x": 1410,
+                "y": 750
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_153eb3c2_a2db_4d36_ab01_9518ae3ff7fa"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_153eb3c2_a2db_4d36_ab01_9518ae3ff7fa": {
+            "id": "ID_153eb3c2_a2db_4d36_ab01_9518ae3ff7fa",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+            "targetPort": "f15e480d-2056-471e-962e-e5d7f18cbd31",
+            "points": [
+              {
+                "id": "946d296a-1a9b-48e5-8524-67f81abc6a0d",
+                "type": "point",
+                "x": 1410,
+                "y": 750
+              },
+              {
+                "id": "ba737cc1-efcc-4d48-acaa-da17b3ec275f",
+                "type": "point",
+                "x": 1500,
+                "y": 750
+              },
+              {
+                "id": "1bfa2469-2662-410f-b8af-b6f300337299",
+                "type": "point",
+                "x": 1499.376057624817,
+                "y": 704.3836526870725
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_2a75ddbf_81b3_4b30_a05f_b0a7b79e5bb2",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_61b832b1_3eab_4c72_9f3f_05c45615fe15": {
+            "id": "ID_61b832b1_3eab_4c72_9f3f_05c45615fe15",
+            "type": "link",
+            "selected": false,
+            "source": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+            "sourcePort": "d6ef1945-f61b-4f0b-8bf8-bad4e2b31ebd",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "83d9e791-171f-4048-bae3-f831c7f99a67",
+                "type": "point",
+                "x": 1379.2914222081504,
+                "y": 629.6820472081499
+              },
+              {
+                "id": "79936331-2b0b-4f6b-8532-24dc3ecd0f9f",
+                "type": "point",
+                "x": 1425,
+                "y": 630
+              },
+              {
+                "id": "58491a0c-32fa-4f4d-a0c3-e43a5768fc8f",
+                "type": "point",
+                "x": 1425,
+                "y": 735
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_5c3c8b4f_b647_4f83_a962_75338ee11a09"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_5c3c8b4f_b647_4f83_a962_75338ee11a09": {
+            "id": "ID_5c3c8b4f_b647_4f83_a962_75338ee11a09",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+            "targetPort": "45e79325-5d3f-4900-abbc-e121561d9913",
+            "points": [
+              {
+                "id": "30c9b95e-c139-4ed5-b202-12d18f3d913e",
+                "type": "point",
+                "x": 1425,
+                "y": 735
+              },
+              {
+                "id": "13bfa143-a9fd-4795-b289-275b2495a5ea",
+                "type": "point",
+                "x": 1515,
+                "y": 735
+              },
+              {
+                "id": "3b359440-bfd2-4988-8d4c-399777d515f5",
+                "type": "point",
+                "x": 1514.3825680414834,
+                "y": 704.3836526870725
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_61b832b1_3eab_4c72_9f3f_05c45615fe15",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_712899df_83e4_4861_9ee8_7be27b43072e": {
+            "id": "ID_712899df_83e4_4861_9ee8_7be27b43072e",
+            "type": "link",
+            "selected": false,
+            "source": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+            "sourcePort": "b535b94c-d02d-4a61-b7cb-4cc2f3cd308a",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "e5f2da24-1cb7-49f4-9596-b97dfd8c9a76",
+                "type": "point",
+                "x": 1379.2914222081504,
+                "y": 674.6798906326292
+              },
+              {
+                "id": "f94941e0-58e0-442f-9d16-7fafc9981cb9",
+                "type": "point",
+                "x": 1440,
+                "y": 675
+              },
+              {
+                "id": "d0b18ea3-b693-4edd-805c-cda2f6c35da6",
+                "type": "point",
+                "x": 1440,
+                "y": 570
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_c4a34f00_771b_4841_898e_e2317931ebd2"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_c4a34f00_771b_4841_898e_e2317931ebd2": {
+            "id": "ID_c4a34f00_771b_4841_898e_e2317931ebd2",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+            "targetPort": "2210e42c-991d-4988-a2e8-6f3d5f637a66",
+            "points": [
+              {
+                "id": "0db7933b-cc33-49c8-b0ad-2ae7421e66e1",
+                "type": "point",
+                "x": 1440,
+                "y": 570
+              },
+              {
+                "id": "c58ea153-796d-4b4e-b385-da2708486df2",
+                "type": "point",
+                "x": 1500,
+                "y": 570
+              },
+              {
+                "id": "aaeb13bf-0be9-484c-beaa-dc04cdc71a93",
+                "type": "point",
+                "x": 1499.376057624817,
+                "y": 614.3879798253374
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_712899df_83e4_4861_9ee8_7be27b43072e",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_67cab287_46df_4b89_9688_e6a5adc2a7ca": {
+            "id": "ID_67cab287_46df_4b89_9688_e6a5adc2a7ca",
+            "type": "link",
+            "selected": false,
+            "source": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+            "sourcePort": "9336c2ae-5209-493e-85e3-d13fb268cb56",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "bd08f68f-fd20-4c2a-88dc-81f1610f42a8",
+                "type": "point",
+                "x": 1379.2914222081504,
+                "y": 689.6755367914832
+              },
+              {
+                "id": "f168b321-7616-4e92-86b7-53f7ba225dbf",
+                "type": "point",
+                "x": 1455,
+                "y": 690
+              },
+              {
+                "id": "37fb265e-6029-4621-8d71-8ad0ef497b51",
+                "type": "point",
+                "x": 1455,
+                "y": 555
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_ae68b619_622c_43ff_a8e7_8f741bd508d4"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_ae68b619_622c_43ff_a8e7_8f741bd508d4": {
+            "id": "ID_ae68b619_622c_43ff_a8e7_8f741bd508d4",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+            "targetPort": "9f2759da-1041-4abc-a892-64d9b1900436",
+            "points": [
+              {
+                "id": "581c330a-fc35-42af-8404-a5b0a8496fb1",
+                "type": "point",
+                "x": 1455,
+                "y": 555
+              },
+              {
+                "id": "31bfafcb-6c60-4ba1-98fe-022c5151fffe",
+                "type": "point",
+                "x": 1485,
+                "y": 555
+              },
+              {
+                "id": "aac60907-344f-4087-bbd2-ec9306bd94e3",
+                "type": "point",
+                "x": 1484.380452156067,
+                "y": 614.3879798253374
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_67cab287_46df_4b89_9688_e6a5adc2a7ca",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_8454b92a_48ed_4361_96bc_e5e453b5059d": {
+            "id": "ID_8454b92a_48ed_4361_96bc_e5e453b5059d",
+            "type": "link",
+            "selected": false,
+            "source": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "sourcePort": "3042044f-f19c-4c95-8c81-3d6d53e699b3",
+            "target": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+            "targetPort": "d73a558a-b2f8-4da1-aff1-715e463ed000",
+            "points": [
+              {
+                "id": "320f68f6-c0ec-4ae0-8ced-8ab99ba9e4cd",
+                "type": "point",
+                "x": 1139.2848711013794,
+                "y": 599.6798906326292
+              },
+              {
+                "id": "e6ad2834-a7bb-4b70-9adc-f836e69e7e6d",
+                "type": "point",
+                "x": 1200.699788093567,
+                "y": 599.6798906326292
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 4
+          },
+          "ID_ede0d91f_53b2_46eb_9d41_1f92e4d900dc": {
+            "id": "ID_ede0d91f_53b2_46eb_9d41_1f92e4d900dc",
+            "type": "link",
+            "selected": false,
+            "source": "ID_541c0d0e_11da_40fc_b7ef_6707b1279006",
+            "sourcePort": "8e11239a-56e8-4144-bae5-e5f2220072c8",
+            "target": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "targetPort": "9ad6f09c-9258-489c-9ca8-288bce34df54",
+            "points": [
+              {
+                "id": "5e2b1e7b-1789-477e-b8d1-1632b6291aa0",
+                "type": "point",
+                "x": 630.6043494542439,
+                "y": 644.9815263748167
+              },
+              {
+                "id": "1ebe4453-127a-4afc-b461-44cba0356720",
+                "type": "point",
+                "x": 630,
+                "y": 600
+              },
+              {
+                "id": "47870c8a-750d-47e9-8d61-6bb7eeb97e46",
+                "type": "point",
+                "x": 960.6933183670044,
+                "y": 599.6798906326292
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_d7ac4b18_7879_4775_99c1_89aed39a51a5": {
+            "id": "ID_d7ac4b18_7879_4775_99c1_89aed39a51a5",
+            "type": "link",
+            "selected": false,
+            "source": "ID_50177bf7_70a3_4c82_82ff_3c6156b8945c",
+            "sourcePort": "ae96fc0f-de16-4034-91fd-9542b4fe98de",
+            "target": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "targetPort": "41e7b7f5-7881-4f94-b68b-7934103ebeda",
+            "points": [
+              {
+                "id": "c98367bd-1201-42b7-a33a-92935cc6d60c",
+                "type": "point",
+                "x": 690.5978390375774,
+                "y": 644.9815263748167
+              },
+              {
+                "id": "b8f0fb1d-419d-48cb-ba78-3378bd484340",
+                "type": "point",
+                "x": 690,
+                "y": 615
+              },
+              {
+                "id": "b7851584-0c87-44da-84a5-6ff2416ef774",
+                "type": "point",
+                "x": 960.6933183670044,
+                "y": 614.6755367914832
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_c7e4f529_5dcf_4bd1_b7fc_078e982b7ec1": {
+            "id": "ID_c7e4f529_5dcf_4bd1_b7fc_078e982b7ec1",
+            "type": "link",
+            "selected": false,
+            "source": "ID_08d43312_9d79_4724_a4a2_3d22f62d3468",
+            "sourcePort": "dc1d85ee-e194-4f8e-b127-005cd471a315",
+            "target": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "targetPort": "9b689415-6d61-4c69-8c45-b9026800f118",
+            "points": [
+              {
+                "id": "905f79c7-df87-4182-83a7-f45aad9f2abe",
+                "type": "point",
+                "x": 750.6021725336711,
+                "y": 644.9815263748167
+              },
+              {
+                "id": "39a5d04c-cf89-49de-918c-a1b1bfb31ea3",
+                "type": "point",
+                "x": 750,
+                "y": 630
+              },
+              {
+                "id": "86f8ba4c-3b52-4a63-829a-b15b3f68e3ad",
+                "type": "point",
+                "x": 960.6933183670044,
+                "y": 629.6820472081499
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_aaaf8db3_7808_4ff3_849e_0927b739c2f6": {
+            "id": "ID_aaaf8db3_7808_4ff3_849e_0927b739c2f6",
+            "type": "link",
+            "selected": false,
+            "source": "ID_3ea09f80_7493_4dd4_998a_ccfc27ce2883",
+            "sourcePort": "857b2973-dc07-4f4e-a5af-93d69054cbc6",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "fd18b626-4f82-4070-af85-35504ebad3fe",
+                "type": "point",
+                "x": 630.6043494542439,
+                "y": 719.9814856847124
+              },
+              {
+                "id": "7a7d3370-7b16-4253-abc3-8472bbd14b58",
+                "type": "point",
+                "x": 630,
+                "y": 675
+              },
+              {
+                "id": "0b8ea604-c6e2-4949-8e3a-28557d9e7177",
+                "type": "point",
+                "x": 765,
+                "y": 675
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_b3672efb_7a08_43de_9d7d_ea12ab4ac730"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_b3672efb_7a08_43de_9d7d_ea12ab4ac730": {
+            "id": "ID_b3672efb_7a08_43de_9d7d_ea12ab4ac730",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "targetPort": "debbb542-c08c-41c9-909e-8f72a493b3e4",
+            "points": [
+              {
+                "id": "3b9bbf0f-5f12-4d8f-878c-7de7f52e93a6",
+                "type": "point",
+                "x": 765,
+                "y": 675
+              },
+              {
+                "id": "3317e302-63b0-41bc-a2e3-aed4e5d9c262",
+                "type": "point",
+                "x": 765,
+                "y": 645
+              },
+              {
+                "id": "dc1f461c-6da1-4ac9-8491-773c4cb5155f",
+                "type": "point",
+                "x": 960.6933183670044,
+                "y": 644.6776933670042
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_aaaf8db3_7808_4ff3_849e_0927b739c2f6",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_a2d27174_d45a_4ae2_a9ca_320a4980683d": {
+            "id": "ID_a2d27174_d45a_4ae2_a9ca_320a4980683d",
+            "type": "link",
+            "selected": false,
+            "source": "ID_cd975f99_d9a7_46df_9733_b47ea1668042",
+            "sourcePort": "870d5a9c-5340-49ec-9b58-f728205cd54d",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "7a709c9c-2079-485c-82d1-5bf9760281f5",
+                "type": "point",
+                "x": 690.5978390375774,
+                "y": 719.9814856847124
+              },
+              {
+                "id": "b8f54a88-9c26-4bea-9e6a-7b9c2be88653",
+                "type": "point",
+                "x": 690,
+                "y": 690
+              },
+              {
+                "id": "e4602cfa-154a-4c21-8d7b-9ec67495daf2",
+                "type": "point",
+                "x": 780,
+                "y": 690
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_2b68960e_3814_4ee5_be5e_1e0a89c745be"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_2b68960e_3814_4ee5_be5e_1e0a89c745be": {
+            "id": "ID_2b68960e_3814_4ee5_be5e_1e0a89c745be",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "targetPort": "ec57002e-501c-4563-a6ac-e4d197af7c3a",
+            "points": [
+              {
+                "id": "f1784702-9223-45c7-93e6-d0d7f648306e",
+                "type": "point",
+                "x": 780,
+                "y": 690
+              },
+              {
+                "id": "2eb31dd2-cff1-4ad0-a3a3-dbc384c41080",
+                "type": "point",
+                "x": 780,
+                "y": 660
+              },
+              {
+                "id": "4b1511e1-7c5b-4b2b-9709-a01c7ee5fb14",
+                "type": "point",
+                "x": 960.6933183670044,
+                "y": 659.6842037836707
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_a2d27174_d45a_4ae2_a9ca_320a4980683d",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_f7c19f10_77a7_4d2b_b2c0_720a4eab64fa": {
+            "id": "ID_f7c19f10_77a7_4d2b_b2c0_720a4eab64fa",
+            "type": "link",
+            "selected": false,
+            "source": "ID_df01b159_95c0_4b78_9f10_4ab47acaf009",
+            "sourcePort": "1a8a3f68-a86e-44cc-a169-7f4791e84e6b",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "444e9d26-8bae-43a8-8297-81c9b3e97e6c",
+                "type": "point",
+                "x": 750.6021725336711,
+                "y": 719.9814856847124
+              },
+              {
+                "id": "4144cdc3-7861-4faf-91f7-1f030eab12ce",
+                "type": "point",
+                "x": 795,
+                "y": 720
+              },
+              {
+                "id": "edc79a1b-3b54-4b14-88b7-88b4ae572ce7",
+                "type": "point",
+                "x": 795,
+                "y": 675
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_7917f372_3028_4680_8fb0_2c2f35a2746e"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_7917f372_3028_4680_8fb0_2c2f35a2746e": {
+            "id": "ID_7917f372_3028_4680_8fb0_2c2f35a2746e",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "targetPort": "fc0b8c6e-53b6-418b-ac85-22b15d9e06de",
+            "points": [
+              {
+                "id": "d2341cce-a2ee-4f1e-9280-ceac6878c3b4",
+                "type": "point",
+                "x": 795,
+                "y": 675
+              },
+              {
+                "id": "50c0dd96-df58-4378-a2fc-52755925e1ef",
+                "type": "point",
+                "x": 960.6933183670044,
+                "y": 674.6798906326292
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_f7c19f10_77a7_4d2b_b2c0_720a4eab64fa",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_7ce608f5_a5f0_4740_b310_8b8057b33e75": {
+            "id": "ID_7ce608f5_a5f0_4740_b310_8b8057b33e75",
+            "type": "link",
+            "selected": false,
+            "source": "ID_625b9c10_8185_4160_bdff_5259b9af0bab",
+            "sourcePort": "887cf4fa-f7e3-4242-b7ad-cc7b2e04b9ba",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "fe3c39f8-b1b3-407d-bdf7-9880651042b9",
+                "type": "point",
+                "x": 630.6043494542439,
+                "y": 794.9814856847124
+              },
+              {
+                "id": "61845d7f-fe13-46a8-9cc8-2dd166b21429",
+                "type": "point",
+                "x": 630,
+                "y": 750
+              },
+              {
+                "id": "8fd5394d-288c-4c33-b19c-5de4b3ad7165",
+                "type": "point",
+                "x": 810,
+                "y": 750
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_aa437518_fec2_4092_b7cc_8e7e6ddb49b4"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_aa437518_fec2_4092_b7cc_8e7e6ddb49b4": {
+            "id": "ID_aa437518_fec2_4092_b7cc_8e7e6ddb49b4",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "targetPort": "af88343e-7a20-44a2-b95e-ac5c6fc27497",
+            "points": [
+              {
+                "id": "684b2a23-a3cf-490b-a6aa-39fbad64e38e",
+                "type": "point",
+                "x": 810,
+                "y": 750
+              },
+              {
+                "id": "c71930ce-aa2f-4f40-9239-ab76fd06b4c4",
+                "type": "point",
+                "x": 810,
+                "y": 690
+              },
+              {
+                "id": "3a87043c-b8a8-4601-882c-c7c03c594638",
+                "type": "point",
+                "x": 960.6933183670044,
+                "y": 689.6755367914832
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_7ce608f5_a5f0_4740_b310_8b8057b33e75",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_8f77bc9f_83ed_4a06_822c_0b61db231dd3": {
+            "id": "ID_8f77bc9f_83ed_4a06_822c_0b61db231dd3",
+            "type": "link",
+            "selected": false,
+            "source": "ID_de12e2aa_81fe_4a96_aa95_a8e77f469099",
+            "sourcePort": "4b7efe95-9d31-484d-a457-deb0c7e4f273",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "b26b7bce-ba13-4988-a8fb-0a4c5734b451",
+                "type": "point",
+                "x": 690.5978390375774,
+                "y": 794.9814856847124
+              },
+              {
+                "id": "da135575-8bdb-4ea1-af52-d319f2f44331",
+                "type": "point",
+                "x": 690,
+                "y": 765
+              },
+              {
+                "id": "deb802e6-76a8-4bd0-af0c-fe5e28ccb87a",
+                "type": "point",
+                "x": 825,
+                "y": 765
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_259a9e65_1728_4cf0_8bee_2e35fd32ee38"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_259a9e65_1728_4cf0_8bee_2e35fd32ee38": {
+            "id": "ID_259a9e65_1728_4cf0_8bee_2e35fd32ee38",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "targetPort": "e9bdf49f-e548-4e06-b900-bb898108ef48",
+            "points": [
+              {
+                "id": "60cfa092-2580-4e01-9fcf-f35af265c2b0",
+                "type": "point",
+                "x": 825,
+                "y": 765
+              },
+              {
+                "id": "e5e9cc19-196d-4e31-a484-09781f3eba80",
+                "type": "point",
+                "x": 825,
+                "y": 705
+              },
+              {
+                "id": "e315f150-fa6c-46c3-a3ff-898a0045f46a",
+                "type": "point",
+                "x": 960.6933183670044,
+                "y": 704.6820332209265
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_8f77bc9f_83ed_4a06_822c_0b61db231dd3",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_071c2fb5_1fad_4345_9182_a6adc85a019e": {
+            "id": "ID_071c2fb5_1fad_4345_9182_a6adc85a019e",
+            "type": "link",
+            "selected": false,
+            "source": "ID_66a3c918_4280_427f_bd7d_6a9ed6402d1b",
+            "sourcePort": "1726e74e-4770-451e-9321-3a8db570092f",
+            "target": null,
+            "targetPort": null,
+            "points": [
+              {
+                "id": "89b90a89-10d4-497c-9647-cb2cc31436e2",
+                "type": "point",
+                "x": 750.6021725336711,
+                "y": 794.9814856847124
+              },
+              {
+                "id": "07f43b6d-9541-4f2f-adb6-cd09040565b0",
+                "type": "point",
+                "x": 840,
+                "y": 795
+              },
+              {
+                "id": "fb409e22-946c-4574-8751-56a8a258f780",
+                "type": "point",
+                "x": 840,
+                "y": 720
+              }
+            ],
+            "labels": [],
+            "bifurcations": [
+              "ID_28702be6_87be_4bac_bb9b_9fe86889f7d0"
+            ],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_28702be6_87be_4bac_bb9b_9fe86889f7d0": {
+            "id": "ID_28702be6_87be_4bac_bb9b_9fe86889f7d0",
+            "type": "link",
+            "selected": false,
+            "source": null,
+            "sourcePort": null,
+            "target": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "targetPort": "fca3a88e-d6d4-4017-bfec-075ddfb2a34c",
+            "points": [
+              {
+                "id": "f2bee3a5-16f2-40b9-b1d8-185764138714",
+                "type": "point",
+                "x": 840,
+                "y": 720
+              },
+              {
+                "id": "54137423-b91e-4804-ba39-132f77f99a47",
+                "type": "point",
+                "x": 960.6933183670044,
+                "y": 719.6776933670042
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": "ID_071c2fb5_1fad_4345_9182_a6adc85a019e",
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          }
+        }
+      },
+      {
+        "id": "39e15efd-4916-445c-a515-d2857e2d29ec",
+        "type": "diagram-nodes",
+        "isSvg": false,
+        "transformed": true,
+        "models": {
+          "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c": {
+            "id": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+            "type": "ExternalVerilog",
+            "selected": false,
+            "x": 1200,
+            "y": 585,
+            "ports": [
+              {
+                "id": "d73a558a-b2f8-4da1-aff1-715e463ed000",
+                "type": "Port",
+                "selected": false,
+                "x": 1195.7030436197917,
+                "y": 594.6831461588539,
+                "name": "in",
+                "parentNode": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+                "links": [
+                  "ID_8454b92a_48ed_4361_96bc_e5e453b5059d"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 4,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "9c3c544d-abb6-4dac-99f2-8db9e565e010",
+                "type": "Port",
+                "selected": false,
+                "x": 1374.294677734375,
+                "y": 594.6831461588539,
+                "name": "a",
+                "parentNode": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+                "links": [
+                  "ID_f32bc24f_a4a4_44d4_9a2a_c5e34fe83654"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "9764aa84-9384-4952-85a1-8689e38ceedf",
+                "type": "Port",
+                "selected": false,
+                "x": 1374.294677734375,
+                "y": 609.678792317708,
+                "name": "b",
+                "parentNode": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+                "links": [
+                  "ID_0919abc5_672d_4d9e_8ff6_ec34076749c3"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "d6ef1945-f61b-4f0b-8bf8-bad4e2b31ebd",
+                "type": "Port",
+                "selected": false,
+                "x": 1374.294677734375,
+                "y": 624.6853027343747,
+                "name": "c",
+                "parentNode": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+                "links": [
+                  "ID_61b832b1_3eab_4c72_9f3f_05c45615fe15"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "09dc57ee-71e0-410b-9a65-2985c993f4f4",
+                "type": "Port",
+                "selected": false,
+                "x": 1374.294677734375,
+                "y": 639.6809488932289,
+                "name": "d",
+                "parentNode": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+                "links": [
+                  "ID_2a75ddbf_81b3_4b30_a05f_b0a7b79e5bb2"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "dc3b7385-c87d-4cc3-b1ab-f876f2e90e93",
+                "type": "Port",
+                "selected": false,
+                "x": 1374.294677734375,
+                "y": 654.6874593098955,
+                "name": "e",
+                "parentNode": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+                "links": [
+                  "ID_440cdc66_2d47_45d9_87b1_3c0472d0d461"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "b535b94c-d02d-4a61-b7cb-4cc2f3cd308a",
+                "type": "Port",
+                "selected": false,
+                "x": 1374.294677734375,
+                "y": 669.6831461588539,
+                "name": "f",
+                "parentNode": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+                "links": [
+                  "ID_712899df_83e4_4861_9ee8_7be27b43072e"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "9336c2ae-5209-493e-85e3-d13fb268cb56",
+                "type": "Port",
+                "selected": false,
+                "x": 1374.294677734375,
+                "y": 684.678792317708,
+                "name": "g",
+                "parentNode": "ID_5ad23da4_88f3_43f3_a886_9eccf60d362c",
+                "links": [
+                  "ID_67cab287_46df_4b89_9688_e6a5adc2a7ca"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "MODULE_NAME": "HexTo7Segment",
+              "INPUT_DESC": [
+                {
+                  "name": "in",
+                  "bitWidth": "3:0 "
+                }
+              ],
+              "OUTPUT_DESC": [
+                {
+                  "name": "a",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "b",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "c",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "d",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "e",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "f",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "g",
+                  "bitWidth": "1:1"
+                }
+              ],
+              "FILE_PATH": "keyboard/HexTo7Segment.v"
+            }
+          },
+          "ID_49cb61de_6558_4020_a909_4afb34e759d4": {
+            "id": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+            "type": "Ssd",
+            "selected": false,
+            "x": 1470,
+            "y": 615,
+            "ports": [
+              {
+                "id": "403ee7dd-73a7-4c94-9774-37d3dc7ec426",
+                "type": "Port",
+                "selected": false,
+                "x": 1509.3858235677083,
+                "y": 609.3912353515622,
+                "name": "a",
+                "parentNode": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+                "links": [
+                  "ID_f32bc24f_a4a4_44d4_9a2a_c5e34fe83654"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "c91ec564-378a-4e5b-8e40-410677349672",
+                "type": "Port",
+                "selected": false,
+                "x": 1524.3815104166667,
+                "y": 609.3912353515622,
+                "name": "b",
+                "parentNode": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+                "links": [
+                  "ID_417fa7e5_5f08_401d_b67d_b1378aa547e4"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "45e79325-5d3f-4900-abbc-e121561d9913",
+                "type": "Port",
+                "selected": false,
+                "x": 1509.3858235677083,
+                "y": 699.3869222005205,
+                "name": "c",
+                "parentNode": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+                "links": [
+                  "ID_5c3c8b4f_b647_4f83_a962_75338ee11a09"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "f15e480d-2056-471e-962e-e5d7f18cbd31",
+                "type": "Port",
+                "selected": false,
+                "x": 1494.3793131510417,
+                "y": 699.3869222005205,
+                "name": "d",
+                "parentNode": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+                "links": [
+                  "ID_153eb3c2_a2db_4d36_ab01_9518ae3ff7fa"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "bdcac83d-37ca-4c73-aab0-39ab35ddeadf",
+                "type": "Port",
+                "selected": false,
+                "x": 1479.3837076822917,
+                "y": 699.3869222005205,
+                "name": "e",
+                "parentNode": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+                "links": [
+                  "ID_8d659be2_f3bc_4549_a673_50041c76ea45"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "2210e42c-991d-4988-a2e8-6f3d5f637a66",
+                "type": "Port",
+                "selected": false,
+                "x": 1494.3793131510417,
+                "y": 609.3912353515622,
+                "name": "f",
+                "parentNode": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+                "links": [
+                  "ID_c4a34f00_771b_4841_898e_e2317931ebd2"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "9f2759da-1041-4abc-a892-64d9b1900436",
+                "type": "Port",
+                "selected": false,
+                "x": 1479.3837076822917,
+                "y": 609.3912353515622,
+                "name": "g",
+                "parentNode": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+                "links": [
+                  "ID_ae68b619_622c_43ff_a8e7_8f741bd508d4"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "cc254a89-c78b-4fb3-b31e-d3780ce1188a",
+                "type": "Port",
+                "x": 1524.3815104166667,
+                "y": 699.3869222005205,
+                "name": "dp",
+                "parentNode": "ID_49cb61de_6558_4020_a909_4afb34e759d4",
+                "links": [],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "ACTIVE_WHEN": "HIGH",
+              "ON_COLOR": "#ff0000",
+              "OFF_COLOR": "#00000040"
+            }
+          },
+          "ID_b2b4f72b_0419_42bd_811a_14b46432f711": {
+            "id": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+            "type": "ExternalVerilog",
+            "selected": false,
+            "x": 960,
+            "y": 585,
+            "ports": [
+              {
+                "id": "9ad6f09c-9258-489c-9ca8-288bce34df54",
+                "type": "Port",
+                "selected": false,
+                "x": 955.6965738932291,
+                "y": 594.6831461588539,
+                "name": "in1",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_ede0d91f_53b2_46eb_9d41_1f92e4d900dc"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "41e7b7f5-7881-4f94-b68b-7934103ebeda",
+                "type": "Port",
+                "selected": false,
+                "x": 955.6965738932291,
+                "y": 609.678792317708,
+                "name": "in2",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_d7ac4b18_7879_4775_99c1_89aed39a51a5"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "9b689415-6d61-4c69-8c45-b9026800f118",
+                "type": "Port",
+                "selected": false,
+                "x": 955.6965738932291,
+                "y": 624.6853027343747,
+                "name": "in3",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_c7e4f529_5dcf_4bd1_b7fc_078e982b7ec1"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "debbb542-c08c-41c9-909e-8f72a493b3e4",
+                "type": "Port",
+                "selected": false,
+                "x": 955.6965738932291,
+                "y": 639.6809488932289,
+                "name": "in4",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_b3672efb_7a08_43de_9d7d_ea12ab4ac730"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "ec57002e-501c-4563-a6ac-e4d197af7c3a",
+                "type": "Port",
+                "selected": false,
+                "x": 955.6965738932291,
+                "y": 654.6874593098955,
+                "name": "in5",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_2b68960e_3814_4ee5_be5e_1e0a89c745be"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "fc0b8c6e-53b6-418b-ac85-22b15d9e06de",
+                "type": "Port",
+                "selected": false,
+                "x": 955.6965738932291,
+                "y": 669.6831461588539,
+                "name": "in6",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_7917f372_3028_4680_8fb0_2c2f35a2746e"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "af88343e-7a20-44a2-b95e-ac5c6fc27497",
+                "type": "Port",
+                "selected": false,
+                "x": 955.6965738932291,
+                "y": 684.678792317708,
+                "name": "in7",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_aa437518_fec2_4092_b7cc_8e7e6ddb49b4"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "e9bdf49f-e548-4e06-b900-bb898108ef48",
+                "type": "Port",
+                "selected": false,
+                "x": 955.6965738932291,
+                "y": 699.6853027343747,
+                "name": "in8",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_259a9e65_1728_4cf0_8bee_2e35fd32ee38"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "fca3a88e-d6d4-4017-bfec-075ddfb2a34c",
+                "type": "Port",
+                "selected": false,
+                "x": 955.6965738932291,
+                "y": 714.6809488932289,
+                "name": "in9",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_28702be6_87be_4bac_bb9b_9fe86889f7d0"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": 0,
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "3042044f-f19c-4c95-8c81-3d6d53e699b3",
+                "type": "Port",
+                "selected": false,
+                "x": 1134.2881266276042,
+                "y": 594.6831461588539,
+                "name": "out",
+                "parentNode": "ID_b2b4f72b_0419_42bd_811a_14b46432f711",
+                "links": [
+                  "ID_8454b92a_48ed_4361_96bc_e5e453b5059d"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 4,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "MODULE_NAME": "simple_keyboard",
+              "INPUT_DESC": [
+                {
+                  "name": "in1",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "in2",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "in3",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "in4",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "in5",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "in6",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "in7",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "in8",
+                  "bitWidth": "1:1"
+                },
+                {
+                  "name": "in9",
+                  "bitWidth": "1:1"
+                }
+              ],
+              "OUTPUT_DESC": [
+                {
+                  "name": "out",
+                  "bitWidth": "3:0 "
+                }
+              ],
+              "FILE_PATH": "keyboard/simple_keyboard.v"
+            }
+          },
+          "ID_541c0d0e_11da_40fc_b7ef_6707b1279006": {
+            "id": "ID_541c0d0e_11da_40fc_b7ef_6707b1279006",
+            "type": "Button",
+            "selected": false,
+            "x": 600,
+            "y": 630,
+            "ports": [
+              {
+                "id": "8e11239a-56e8-4144-bae5-e5f2220072c8",
+                "type": "Port",
+                "selected": false,
+                "x": 625.6076049804688,
+                "y": 639.9847819010414,
+                "name": "out",
+                "parentNode": "ID_541c0d0e_11da_40fc_b7ef_6707b1279006",
+                "links": [
+                  "ID_ede0d91f_53b2_46eb_9d41_1f92e4d900dc"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {}
+          },
+          "ID_50177bf7_70a3_4c82_82ff_3c6156b8945c": {
+            "id": "ID_50177bf7_70a3_4c82_82ff_3c6156b8945c",
+            "type": "Button",
+            "selected": false,
+            "x": 660,
+            "y": 630,
+            "ports": [
+              {
+                "id": "ae96fc0f-de16-4034-91fd-9542b4fe98de",
+                "type": "Port",
+                "selected": false,
+                "x": 685.6010945638021,
+                "y": 639.9847819010414,
+                "name": "out",
+                "parentNode": "ID_50177bf7_70a3_4c82_82ff_3c6156b8945c",
+                "links": [
+                  "ID_d7ac4b18_7879_4775_99c1_89aed39a51a5"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {}
+          },
+          "ID_08d43312_9d79_4724_a4a2_3d22f62d3468": {
+            "id": "ID_08d43312_9d79_4724_a4a2_3d22f62d3468",
+            "type": "Button",
+            "selected": false,
+            "x": 720,
+            "y": 630,
+            "ports": [
+              {
+                "id": "dc1d85ee-e194-4f8e-b127-005cd471a315",
+                "type": "Port",
+                "selected": false,
+                "x": 745.6054280598959,
+                "y": 639.9847819010414,
+                "name": "out",
+                "parentNode": "ID_08d43312_9d79_4724_a4a2_3d22f62d3468",
+                "links": [
+                  "ID_c7e4f529_5dcf_4bd1_b7fc_078e982b7ec1"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {}
+          },
+          "ID_3ea09f80_7493_4dd4_998a_ccfc27ce2883": {
+            "id": "ID_3ea09f80_7493_4dd4_998a_ccfc27ce2883",
+            "type": "Button",
+            "selected": false,
+            "x": 600,
+            "y": 705,
+            "ports": [
+              {
+                "id": "857b2973-dc07-4f4e-a5af-93d69054cbc6",
+                "type": "Port",
+                "selected": false,
+                "x": 625.6076049804688,
+                "y": 714.9847412109372,
+                "name": "out",
+                "parentNode": "ID_3ea09f80_7493_4dd4_998a_ccfc27ce2883",
+                "links": [
+                  "ID_aaaf8db3_7808_4ff3_849e_0927b739c2f6"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {}
+          },
+          "ID_cd975f99_d9a7_46df_9733_b47ea1668042": {
+            "id": "ID_cd975f99_d9a7_46df_9733_b47ea1668042",
+            "type": "Button",
+            "selected": false,
+            "x": 660,
+            "y": 705,
+            "ports": [
+              {
+                "id": "870d5a9c-5340-49ec-9b58-f728205cd54d",
+                "type": "Port",
+                "selected": false,
+                "x": 685.6010945638021,
+                "y": 714.9847412109372,
+                "name": "out",
+                "parentNode": "ID_cd975f99_d9a7_46df_9733_b47ea1668042",
+                "links": [
+                  "ID_a2d27174_d45a_4ae2_a9ca_320a4980683d"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {}
+          },
+          "ID_df01b159_95c0_4b78_9f10_4ab47acaf009": {
+            "id": "ID_df01b159_95c0_4b78_9f10_4ab47acaf009",
+            "type": "Button",
+            "selected": false,
+            "x": 720,
+            "y": 705,
+            "ports": [
+              {
+                "id": "1a8a3f68-a86e-44cc-a169-7f4791e84e6b",
+                "type": "Port",
+                "selected": false,
+                "x": 745.6054280598959,
+                "y": 714.9847412109372,
+                "name": "out",
+                "parentNode": "ID_df01b159_95c0_4b78_9f10_4ab47acaf009",
+                "links": [
+                  "ID_f7c19f10_77a7_4d2b_b2c0_720a4eab64fa"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {}
+          },
+          "ID_625b9c10_8185_4160_bdff_5259b9af0bab": {
+            "id": "ID_625b9c10_8185_4160_bdff_5259b9af0bab",
+            "type": "Button",
+            "selected": false,
+            "x": 600,
+            "y": 780,
+            "ports": [
+              {
+                "id": "887cf4fa-f7e3-4242-b7ad-cc7b2e04b9ba",
+                "type": "Port",
+                "selected": false,
+                "x": 625.6076049804688,
+                "y": 789.9847412109372,
+                "name": "out",
+                "parentNode": "ID_625b9c10_8185_4160_bdff_5259b9af0bab",
+                "links": [
+                  "ID_7ce608f5_a5f0_4740_b310_8b8057b33e75"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {}
+          },
+          "ID_de12e2aa_81fe_4a96_aa95_a8e77f469099": {
+            "id": "ID_de12e2aa_81fe_4a96_aa95_a8e77f469099",
+            "type": "Button",
+            "selected": false,
+            "x": 660,
+            "y": 780,
+            "ports": [
+              {
+                "id": "4b7efe95-9d31-484d-a457-deb0c7e4f273",
+                "type": "Port",
+                "selected": false,
+                "x": 685.6010945638021,
+                "y": 789.9847412109372,
+                "name": "out",
+                "parentNode": "ID_de12e2aa_81fe_4a96_aa95_a8e77f469099",
+                "links": [
+                  "ID_8f77bc9f_83ed_4a06_822c_0b61db231dd3"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {}
+          },
+          "ID_66a3c918_4280_427f_bd7d_6a9ed6402d1b": {
+            "id": "ID_66a3c918_4280_427f_bd7d_6a9ed6402d1b",
+            "type": "Button",
+            "selected": false,
+            "x": 720,
+            "y": 780,
+            "ports": [
+              {
+                "id": "1726e74e-4770-451e-9321-3a8db570092f",
+                "type": "Port",
+                "selected": false,
+                "x": 745.6054280598959,
+                "y": 789.9847412109372,
+                "name": "out",
+                "parentNode": "ID_66a3c918_4280_427f_bd7d_6a9ed6402d1b",
+                "links": [
+                  "ID_071c2fb5_1fad_4345_9182_a6adc85a019e"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {}
+          }
+        }
+      }
+    ]
+  }
+}
