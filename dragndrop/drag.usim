@@ -1,0 +1,141 @@
+{
+  "id": "c5816e19-1230-4c41-b6fa-ceb352c46f0e",
+  "name": "Untitled circuit",
+  "createdAt": "2025-06-03T16:50:58.410Z",
+  "updatedAt": "2025-06-03T16:50:58.410Z",
+  "circuit": {
+    "id": "c5816e19-1230-4c41-b6fa-ceb352c46f0e",
+    "locked": false,
+    "offsetX": -133,
+    "offsetY": -49.5,
+    "zoom": 150,
+    "gridSize": 15,
+    "layers": [
+      {
+        "id": "27d74f1c-c952-4723-b8c3-519b2560d83f",
+        "type": "diagram-links",
+        "isSvg": true,
+        "transformed": true,
+        "models": {}
+      },
+      {
+        "id": "3c266014-0b65-43c8-a548-b7c02f037c52",
+        "type": "diagram-nodes",
+        "isSvg": false,
+        "transformed": true,
+        "models": {
+          "ID_eba63d4d_1f85_429c_bfe2_040e1a69ba51": {
+            "id": "ID_eba63d4d_1f85_429c_bfe2_040e1a69ba51",
+            "type": "Input",
+            "selected": false,
+            "x": 270,
+            "y": 240,
+            "ports": [
+              {
+                "id": "a7676b2a-50d4-4993-800b-443fd071b69f",
+                "type": "Port",
+                "selected": false,
+                "x": 295.60545349121094,
+                "y": 249.99456787109375,
+                "name": "out",
+                "parentNode": "ID_eba63d4d_1f85_429c_bfe2_040e1a69ba51",
+                "links": [],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "DATA_BITS": "1"
+            }
+          },
+          "ID_248cc90d_ad79_4efb_b4cb_163516a24c52": {
+            "id": "ID_248cc90d_ad79_4efb_b4cb_163516a24c52",
+            "type": "Input",
+            "selected": false,
+            "x": 240,
+            "y": 255,
+            "ports": [
+              {
+                "id": "daf3cd9c-f13f-4526-a31d-275e1a4c9ab8",
+                "type": "Port",
+                "selected": false,
+                "x": 265.6011047363281,
+                "y": 264.99021911621094,
+                "name": "out",
+                "parentNode": "ID_248cc90d_ad79_4efb_b4cb_163516a24c52",
+                "links": [],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "DATA_BITS": "1"
+            }
+          },
+          "ID_56b7fb5d_04e4_42c4_a24a_cee67cefe226": {
+            "id": "ID_56b7fb5d_04e4_42c4_a24a_cee67cefe226",
+            "type": "Input",
+            "selected": false,
+            "x": 270,
+            "y": 270,
+            "ports": [
+              {
+                "id": "a9f141f4-4d13-4fea-8834-36e971f2f716",
+                "type": "Port",
+                "selected": false,
+                "x": 295.6076202392578,
+                "y": 279.9967346191406,
+                "name": "out",
+                "parentNode": "ID_56b7fb5d_04e4_42c4_a24a_cee67cefe226",
+                "links": [],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "DATA_BITS": "1"
+            }
+          },
+          "ID_3d897d90_d43e_4e0c_b932_1846255cb3d6": {
+            "id": "ID_3d897d90_d43e_4e0c_b932_1846255cb3d6",
+            "type": "Led",
+            "selected": false,
+            "x": 540,
+            "y": 240,
+            "ports": [
+              {
+                "id": "7dc77d3d-d665-4b81-abf1-de29d9b81197",
+                "type": "Port",
+                "selected": false,
+                "x": 534.3858642578125,
+                "y": 249.990234375,
+                "name": "in",
+                "parentNode": "ID_3d897d90_d43e_4e0c_b932_1846255cb3d6",
+                "links": [],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "ON_COLOR": "#00ff00",
+              "OFF_COLOR": "#000000",
+              "FPGA_PINMAP": null
+            }
+          }
+        }
+      }
+    ]
+  }
+}
