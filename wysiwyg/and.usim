@@ -1,0 +1,279 @@
+{
+  "id": "c6a6cb55-68ae-49e4-961c-2522b3971f57",
+  "name": "Untitled circuit",
+  "createdAt": "2025-06-03T16:46:57.351Z",
+  "updatedAt": "2025-06-03T16:46:57.351Z",
+  "circuit": {
+    "id": "c6a6cb55-68ae-49e4-961c-2522b3971f57",
+    "locked": false,
+    "offsetX": -528.3333333333333,
+    "offsetY": -232.33333333333334,
+    "zoom": 200,
+    "gridSize": 15,
+    "layers": [
+      {
+        "id": "2498451d-89b9-4368-9d45-0ccd967e37a2",
+        "type": "diagram-links",
+        "isSvg": true,
+        "transformed": true,
+        "models": {
+          "ID_c83aa6b6_9547_448e_850a_76a45179ce6b": {
+            "id": "ID_c83aa6b6_9547_448e_850a_76a45179ce6b",
+            "type": "link",
+            "selected": false,
+            "source": "ID_dbded683_884e_4069_8590_ad0c390bd811",
+            "sourcePort": "c791b868-1310-4256-a5d7-3f4f0836820c",
+            "target": "ID_c6ccdeaa_1bd1_485e_aa16_3d38c952bb80",
+            "targetPort": "ce50bca1-14eb-4349-a334-90eaef8184cc",
+            "points": [
+              {
+                "id": "28222ac0-a4eb-404f-97a6-19ad6d104034",
+                "type": "point",
+                "x": 405.6043597857157,
+                "y": 284.99347416559857
+              },
+              {
+                "id": "9536ac64-e033-4a0a-aae6-16d0995490e4",
+                "type": "point",
+                "x": 435.00541146596277,
+                "y": 284.9837032953898
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_ec92ab1d_7e1c_41ec_9a4f_049e1f7065fd": {
+            "id": "ID_ec92ab1d_7e1c_41ec_9a4f_049e1f7065fd",
+            "type": "link",
+            "selected": false,
+            "source": "ID_b5b8e08a_d8f5_4457_92a7_2e9dd7c26c64",
+            "sourcePort": "25f467d5-7d0d-4867-88f9-6c8a97ece5d3",
+            "target": "ID_c6ccdeaa_1bd1_485e_aa16_3d38c952bb80",
+            "targetPort": "5fa0fece-baab-4f5e-a3d4-0f4000d68fc7",
+            "points": [
+              {
+                "id": "96e5980f-dad6-4cde-bb29-8ce99e083914",
+                "type": "point",
+                "x": 405.6043597857157,
+                "y": 344.9869434038798
+              },
+              {
+                "id": "31ccf0f4-5f6e-4735-a5c1-56015685e89d",
+                "type": "point",
+                "x": 435.00541146596277,
+                "y": 344.98805713653576
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          },
+          "ID_c1b579ed_095d_408f_8da0_f276fa835ae1": {
+            "id": "ID_c1b579ed_095d_408f_8da0_f276fa835ae1",
+            "type": "link",
+            "selected": false,
+            "source": "ID_c6ccdeaa_1bd1_485e_aa16_3d38c952bb80",
+            "sourcePort": "6c950616-6ca8-49c3-a201-b3129ea7b99b",
+            "target": "ID_5f1de3e2_9563_456c_a31c_9e0763ccf6ef",
+            "targetPort": "e616f3c3-b1a0-4c84-ae8b-a23a5473cbf7",
+            "points": [
+              {
+                "id": "00265c64-6000-4ef6-a608-fd46ad6ae265",
+                "type": "point",
+                "x": 524.9902340571085,
+                "y": 314.98588021596277
+              },
+              {
+                "id": "84135fb4-870f-4bc6-bffa-2a8f15fd63d8",
+                "type": "point",
+                "x": 554.3782245318095,
+                "y": 314.9956256548564
+              }
+            ],
+            "labels": [],
+            "bifurcations": [],
+            "bifurcationSource": null,
+            "bifurcationTarget": null,
+            "value": null,
+            "bits": 1
+          }
+        }
+      },
+      {
+        "id": "b24f7b18-4d27-48ef-a73c-270dee6e8148",
+        "type": "diagram-nodes",
+        "isSvg": false,
+        "transformed": true,
+        "models": {
+          "ID_dbded683_884e_4069_8590_ad0c390bd811": {
+            "id": "ID_dbded683_884e_4069_8590_ad0c390bd811",
+            "type": "Switch",
+            "selected": false,
+            "x": 360,
+            "y": 270,
+            "ports": [
+              {
+                "id": "c791b868-1310-4256-a5d7-3f4f0836820c",
+                "type": "Port",
+                "x": 400.60761515299475,
+                "y": 279.9967295328776,
+                "name": "out",
+                "parentNode": "ID_dbded683_884e_4069_8590_ad0c390bd811",
+                "links": [
+                  "ID_c83aa6b6_9547_448e_850a_76a45179ce6b"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "FPGA_PINMAP": {
+                "type": "dipswitch",
+                "name": "dipSwitch[0]"
+              }
+            }
+          },
+          "ID_b5b8e08a_d8f5_4457_92a7_2e9dd7c26c64": {
+            "id": "ID_b5b8e08a_d8f5_4457_92a7_2e9dd7c26c64",
+            "type": "Switch",
+            "selected": false,
+            "x": 360,
+            "y": 330,
+            "ports": [
+              {
+                "id": "25f467d5-7d0d-4867-88f9-6c8a97ece5d3",
+                "type": "Port",
+                "x": 400.60761515299475,
+                "y": 339.9901987711589,
+                "name": "out",
+                "parentNode": "ID_b5b8e08a_d8f5_4457_92a7_2e9dd7c26c64",
+                "links": [
+                  "ID_ec92ab1d_7e1c_41ec_9a4f_049e1f7065fd"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "FPGA_PINMAP": {
+                "type": "dipswitch",
+                "name": "dipSwitch[1]"
+              }
+            }
+          },
+          "ID_c6ccdeaa_1bd1_485e_aa16_3d38c952bb80": {
+            "id": "ID_c6ccdeaa_1bd1_485e_aa16_3d38c952bb80",
+            "type": "And",
+            "selected": false,
+            "x": 435,
+            "y": 270,
+            "ports": [
+              {
+                "id": "ce50bca1-14eb-4349-a334-90eaef8184cc",
+                "type": "Port",
+                "selected": false,
+                "x": 430.0086669921875,
+                "y": 279.9869588216145,
+                "name": "in0",
+                "parentNode": "ID_c6ccdeaa_1bd1_485e_aa16_3d38c952bb80",
+                "links": [
+                  "ID_c83aa6b6_9547_448e_850a_76a45179ce6b"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "5fa0fece-baab-4f5e-a3d4-0f4000d68fc7",
+                "type": "Port",
+                "selected": false,
+                "x": 430.0086669921875,
+                "y": 339.9913126627605,
+                "name": "in1",
+                "parentNode": "ID_c6ccdeaa_1bd1_485e_aa16_3d38c952bb80",
+                "links": [
+                  "ID_ec92ab1d_7e1c_41ec_9a4f_049e1f7065fd"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              },
+              {
+                "id": "6c950616-6ca8-49c3-a201-b3129ea7b99b",
+                "type": "Port",
+                "selected": false,
+                "x": 519.9934895833334,
+                "y": 309.9891357421875,
+                "name": "out",
+                "parentNode": "ID_c6ccdeaa_1bd1_485e_aa16_3d38c952bb80",
+                "links": [
+                  "ID_c1b579ed_095d_408f_8da0_f276fa835ae1"
+                ],
+                "input": false,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "INPUT_PORTS_NUMBER": 2,
+              "DATA_BITS": "1"
+            }
+          },
+          "ID_5f1de3e2_9563_456c_a31c_9e0763ccf6ef": {
+            "id": "ID_5f1de3e2_9563_456c_a31c_9e0763ccf6ef",
+            "type": "Led",
+            "selected": false,
+            "x": 555,
+            "y": 300,
+            "ports": [
+              {
+                "id": "e616f3c3-b1a0-4c84-ae8b-a23a5473cbf7",
+                "type": "Port",
+                "x": 549.3814798990885,
+                "y": 309.99888102213544,
+                "name": "in",
+                "parentNode": "ID_5f1de3e2_9563_456c_a31c_9e0763ccf6ef",
+                "links": [
+                  "ID_c1b579ed_095d_408f_8da0_f276fa835ae1"
+                ],
+                "input": true,
+                "value": null,
+                "bits": 1,
+                "defaultFloatingValue": "x",
+                "defaultErrorValue": "e"
+              }
+            ],
+            "configurations": {
+              "ON_COLOR": "#00ff00",
+              "OFF_COLOR": "#000000",
+              "FPGA_PINMAP": {
+                "type": "led",
+                "x": 0,
+                "y": 0
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
